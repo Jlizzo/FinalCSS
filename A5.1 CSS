@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://static.wixstatic.com/media/853d3f_a6a5ae9ef1eb445c86962014f077e94bf000.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/853d3f_a6a5ae9ef1eb445c86962014f077e94bf000.jpg");
+}
+p {
+    color: #fc77fe;
+    background-color: rgba(0, 255, 255, 0.242);
+    text-shadow: 2px 2px 3px #003856;
+    text-align: center;
+    font-family: Britannic;
+    font-size: 20px;
+    padding: 6px;
+}
+h1 {
+    color: #ff9df0;
+    background-image: linear-gradient(#fc77fe, rgba(255, 0, 238, 0)); 
+    text-shadow: 3px 3px 3px #003856;
+    font-size: 45px;
+    padding: 10px;
+}
+h2 {
+    background-image: linear-gradient(rgba(255, 0, 238, 0), #fc77fe);
+    font-size: 20px; 
+    font-family: Britannic; 
+    text-align: center; 
+    
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+table {
+    font-family: Britannic;
+    width: 100%;
+}
+th, td {
+    border: 2px solid #350066;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #f5acf74b;
+  color: #ffaeef;
+}
+tr:nth-child(odd) {
+    background-color: #f2f8b000;
+    color: #ffd9fc;
+}
+tr:hover {
+    background-color: #ffffff5b;
+}
